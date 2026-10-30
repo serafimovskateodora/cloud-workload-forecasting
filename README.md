@@ -1,5 +1,13 @@
 # Cloud Workload Forecasting Challenge
 
+**My solution:** see [Implemented Solution](#implemented-solution) below and the [final report](reports/final_report.md).
+
+Quick start (after installing the project and extracting the dataset into `challenge_data/`):
+
+```bash
+python -m cwfc.predict --data challenge_data --output predictions.csv
+```
+
 AI/ML take-home challenge built from the **Microsoft Azure Public Dataset V2** VM trace.
 
 ## Start here
@@ -131,6 +139,8 @@ Submit your work as a repository or archive according to [`SUBMISSION.md`](SUBMI
 ## Implemented Solution
 
 This repository contains my solution to the Atomity Cloud Workload Forecasting Challenge.
+
+The full write-up is in [`reports/final_report.md`](reports/final_report.md).
 
 ### Approach
 
