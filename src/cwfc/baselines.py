@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import pandas as pd
 
-
 def persistence_forecast(train: pd.DataFrame, template: pd.DataFrame, target: str) -> pd.Series:
     if train.empty:
         raise ValueError("train must not be empty")
